@@ -1,0 +1,19 @@
+# Jekyll config for GitHub Pages
+
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .gitignore
+  - node_modules/
+  - vendor/
+
+# Include files that would normally be excluded
+include: []
+
+# Set defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null
